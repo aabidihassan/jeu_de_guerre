@@ -48,8 +48,8 @@ Arme arme = new Arme(hero);
 int nbBalles = 100;
 Rectangle r2 = new Rectangle(180, 30);
 Text nbBallesRest = new Text();
-File file1 = new File("C:\\Users\\hassa\\Documents\\NetBeansProjects\\Jeu En JavaFX\\src\\jeu\\en\\javafx\\Sounds\\kill.mp3");
-Media mm = new Media(file1.toURI().toString());
+//File file1 = new File("C:\\Users\\hassa\\Documents\\NetBeansProjects\\Jeu En JavaFX\\src\\jeu\\en\\javafx\\Sounds\\kill.mp3");
+//Media mm = new Media(file1.toURI().toString());
 boolean stage2 = false;
 boolean alertt = false;
 boolean fin = false;
@@ -527,8 +527,8 @@ Monstre m1,m2;
 //                    String uriString = new File("kill.mp3").toURI().toString();
 //                    MediaPlayer player = new MediaPlayer( new Media(uriString));
 //                    player.play();
-                    MediaPlayer kill = new MediaPlayer(mm);
-                    kill.play();
+//                    MediaPlayer kill = new MediaPlayer(mm);
+//                    kill.play();
                 }
             }
         }
